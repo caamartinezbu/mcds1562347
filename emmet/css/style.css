@@ -1,0 +1,79 @@
+	h1{
+		background-color: #1f2a14;
+		color: #8ec854;
+		text-align: center;
+		font-size: 1.4em;
+		font-weight: normal;
+		margin:0px auto;
+		padding: 10px;
+		width: 420px;
+
+	}
+
+body{
+	font:16px Arial;
+	background: #ddd;
+}
+
+section{
+background-color: #fff;
+margin:20px, auto;
+padding: 20px;
+width: 400px;
+    margin: 0px auto;
+    
+
+}
+
+section div{
+	/*border: 1px solid #000;*/
+	padding: 10px;
+	margin-bottom: 4px;
+}
+
+section div.ejemplo{
+	background-color: green;
+	text-align: center;
+
+}
+
+section div.ejemplo:hover{
+	background-color: #c1dea5;
+	cursor:pointer;
+}
+
+section div.resultado{
+font-size: 0.8em;
+
+}
+
+section div.ejemplo2{
+	background-color: green;
+	text-align: center;
+
+}
+
+section div.ejemplo2:hover{
+	background-color: #c1dea5;
+	cursor:pointer;
+}
+
+section div.resultado2{
+font-size: 0.8em;
+}
+
+
+section div.ejemplo3{
+	background-color: green;
+	text-align: center;
+
+}
+
+section div.ejemplo3:hover{
+	background-color: #c1dea5;
+	cursor:pointer;
+}
+
+section div.resultado3{
+font-size: 0.8em;
+}
