@@ -1,0 +1,12 @@
+- var authorised = true
+- var user = { description: 'esto es la prueba' }
+	article#user
+		if authorised
+			h2.green Description
+			p.description= user.description
+		else
+			h2.red Description
+			p.description User has no description
+
+
+
