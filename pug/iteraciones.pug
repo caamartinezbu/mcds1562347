@@ -1,0 +1,17 @@
+ul
+	each val in [1, 2, 3, 4, 5]
+		li= val
+ul
+	each val, index in ['zero', 'one', 'two', 'three']
+		li= index + ': ' + val
+- var values = [];
+ul
+	each val in values.length ? values : ['There are no values']
+		li= val
+
+
+
+- var n = 0;
+ul
+	while n < 4
+		li= n++
